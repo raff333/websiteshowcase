@@ -2,7 +2,7 @@
 
 
 .gdpr-consent {
-    background-color: grey;
+    background-color: fc7c54;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,6 +15,7 @@
     border: 2px solid gray;
     border-radius: 15px 15px 15px 15px;
     z-index: 1000;
+    opacity: 0.5
 }
 
 .gdpr-consent__description{
