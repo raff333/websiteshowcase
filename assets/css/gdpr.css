@@ -15,12 +15,16 @@
     border: 2px solid gray;
     border-radius: 15px 15px 15px 15px;
     z-index: 1000;
-    opacity: 0.5
+    opacity: 0.8
 }
 
 .gdpr-consent__description{
     display: flex;
     justify-content: center;
+    
+}
+.gdpr-text{
+    color: white;
 }
 
 .gdpr-consent__choice{
