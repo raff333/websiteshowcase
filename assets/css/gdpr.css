@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
@@ -14,6 +14,7 @@
     margin: auto 6rem;
     border: 2px solid gray;
     border-radius: 15px 15px 15px 15px;
+    z-index: 1000;
 }
 
 .gdpr-consent__description{
